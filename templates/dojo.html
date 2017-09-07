@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Sign Up!</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/dojoStyle.css')}}">
     </head>
     <body>
         <h2>Sign up to learn to be a ninja</h2>
@@ -11,6 +12,7 @@
             Name:<input type="text" name="name">
             Phone:<input type="text" name="phone">
             Spam Location:<input type="text" name="email">
+            <input id="submitBut" type="submit" name="Submit" value="Sign Me Up">
         </form>
     </body>
 </html>
