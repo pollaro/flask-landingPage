@@ -13,6 +13,6 @@ def ninjas():
 def dojoNewbies():
     if request.method == 'POST':
         return redirect('/')
-    return render_template('dojos/new.html')
+    return render_template('dojo.html')
 
 app.run(debug=True)
